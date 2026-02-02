@@ -1,0 +1,78 @@
+[
+  {
+    "id": "box-001",
+    "slug": "sunny-picnic",
+    "title": "Sunny Picnic Box",
+    "price_uah": 1390,
+    "weight_g": 1800,
+    "persons_min": 2,
+    "persons_max": 4,
+    "format_tags": ["picnic", "outdoor"],
+    "occasion_tags": ["picnic", "home"],
+    "description_html": "<p>A bright picnic set with artisan cheeses, fruit, and snacks. Packed for an easy outdoor escape.</p>",
+    "composition_text": "Brie, gouda, seasonal fruit, crackers, nuts, honey, sparkling juice.",
+    "images": [
+      "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe",
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836"
+    ],
+    "canonical_url": "https://myastoriya.com.ua/ua/product/sunny-picnic-box",
+    "buy_url": "https://myastoriya.com.ua/ua/product/sunny-picnic-box?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
+  },
+  {
+    "id": "box-002",
+    "slug": "office-break",
+    "title": "Office Break Box",
+    "price_uah": 2150,
+    "weight_g": 3200,
+    "persons_min": 6,
+    "persons_max": 10,
+    "format_tags": ["office", "sharing"],
+    "occasion_tags": ["office", "corporate"],
+    "description_html": "<p>Large-format office box designed for meetings and teamwork. Balanced sweet and savory bites.</p>",
+    "composition_text": "Mini sandwiches, cured meats, cheeses, pastries, seasonal berries, lemonade.",
+    "images": [
+      "https://images.unsplash.com/photo-1542831371-29b0f74f9713",
+      "https://images.unsplash.com/photo-1481931098730-318b6f776db0"
+    ],
+    "canonical_url": "https://myastoriya.com.ua/ua/product/office-break-box",
+    "buy_url": "https://myastoriya.com.ua/ua/product/office-break-box?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
+  },
+  {
+    "id": "box-003",
+    "slug": "birthday-party",
+    "title": "Birthday Party Box",
+    "price_uah": 1890,
+    "weight_g": 2400,
+    "persons_min": 4,
+    "persons_max": 8,
+    "format_tags": ["celebration"],
+    "occasion_tags": ["birthday", "home"],
+    "description_html": "<p>Festive mix with sweet bites and sparkling drinks for the happiest celebrations.</p>",
+    "composition_text": "Macarons, cupcakes, fruit skewers, chocolate truffles, sparkling juice.",
+    "images": [
+      "https://images.unsplash.com/photo-1521305916504-4a1121188589",
+      "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38"
+    ],
+    "canonical_url": "https://myastoriya.com.ua/ua/product/birthday-party-box",
+    "buy_url": "https://myastoriya.com.ua/ua/product/birthday-party-box?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
+  },
+  {
+    "id": "box-004",
+    "slug": "march-8-elegant",
+    "title": "March 8 Elegant Box",
+    "price_uah": 1650,
+    "weight_g": 2000,
+    "persons_min": 2,
+    "persons_max": 5,
+    "format_tags": ["gift"],
+    "occasion_tags": ["march-8", "corporate"],
+    "description_html": "<p>Elegant spring box with floral tones, perfect for March 8 celebrations.</p>",
+    "composition_text": "Artisan chocolates, fruit, croissants, almond cookies, berry tea.",
+    "images": [
+      "https://images.unsplash.com/photo-1481391032119-d89fee407e44",
+      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085"
+    ],
+    "canonical_url": "https://myastoriya.com.ua/ua/product/march-8-elegant-box",
+    "buy_url": "https://myastoriya.com.ua/ua/product/march-8-elegant-box?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
+  }
+]
