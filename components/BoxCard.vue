@@ -1,19 +1,13 @@
 <template>
   <article class="box-card">
     <NuxtLink :to="`/boxes/${box.slug}`" class="box-card__image">
-      <!-- Image OR Placeholder -->
       <img
-        v-if="showImage"
-        :src="imageSrc"
+        :src="imgSrc"
         :alt="box.title"
         loading="lazy"
+        decoding="async"
         @error="onImgError"
       />
-      <div v-else class="box-card__image-placeholder" aria-hidden="true">
-        <div class="box-card__ph-title">{{ box.title }}</div>
-        <div class="box-card__ph-sub">Фото додамо найближчим часом</div>
-      </div>
-
       <span v-if="personsLabel" class="badge">{{ personsLabel }}</span>
     </NuxtLink>
 
@@ -21,12 +15,12 @@
       <h3>{{ box.title }}</h3>
 
       <p class="box-card__meta">
-        <span>{{ box.weight_g }} g</span>
+        <span v-if="box.weight_g && box.weight_g > 0">{{ box.weight_g }} г</span>
         <span>{{ formatPrice(box.price_uah) }}</span>
       </p>
 
-      <ul class="box-card__bullets">
-        <li v-for="tag in (box.format_tags || []).slice(0, 2)" :key="tag">{{ formatTag(tag) }}</li>
+      <ul v-if="box.format_tags?.length" class="box-card__bullets">
+        <li v-for="tag in box.format_tags.slice(0, 2)" :key="tag">{{ formatTag(tag) }}</li>
       </ul>
 
       <div class="box-card__actions">
@@ -45,62 +39,40 @@ import type { Box } from '~/types/box'
 const props = defineProps<{ box: Box }>()
 const { trackEvent } = useAnalytics()
 
-const imgOk = ref(true)
+const FALLBACK = '/img/box-placeholder.png'
 
-const imageSrc = computed(() => {
-  const src = props.box?.images?.[0]
-  return typeof src === 'string' && src.trim().length > 5 ? src : ''
+const toProxy = (url: string) =>
+  url?.startsWith('https://myastoriya.com.ua/')
+    ? url.replace('https://myastoriya.com.ua/', '/mimg/')
+    : url
+
+// беремо найкраще прев’ю для картки (часто є 400x300), інакше перше
+const rawImage = computed(() => {
+  const imgs = props.box.images ?? []
+  return imgs.find(u => u.includes('/400_300_1/')) || imgs[0] || ''
 })
 
-const showImage = computed(() => Boolean(imageSrc.value) && imgOk.value)
+const imgSrc = ref(FALLBACK)
+
+watchEffect(() => {
+  imgSrc.value = rawImage.value ? toProxy(rawImage.value) : FALLBACK
+})
 
 const onImgError = () => {
-  imgOk.value = false
+  imgSrc.value = FALLBACK
 }
 
 const personsLabel = computed(() => {
-  const min = Number(props.box?.persons_min ?? 0)
-  const max = Number(props.box?.persons_max ?? 0)
-
-  // якщо дані не заповнені — краще не показувати бейдж взагалі
-  if (min === 0 && max === 0) return ''
-
-  if (min > 0 && max > 0) return `${min}–${max} осіб`
-  if (max > 0 && min === 0) return `до ${max} осіб`
-  if (min > 0 && max === 0) return `від ${min} осіб`
-
-  return ''
+  const min = props.box.persons_min || 0
+  const max = props.box.persons_max || 0
+  if (!min || !max) return null
+  return min === max ? `${min} порцій` : `${min}–${max} порцій`
 })
 
 const formatPrice = (value: number) => `${value.toLocaleString('uk-UA')} ₴`
-const formatTag = (tag: string) => tag.replaceAll('-', ' ').replaceAll('_', ' ')
+const formatTag = (tag: string) => tag.replace(/-/g, ' ')
 
 const trackBuy = () => {
   trackEvent('cta_click', { slug: props.box.slug, location: 'card' })
 }
 </script>
-
-<style scoped>
-/* Мінімальний стиль плейсхолдера, щоб не було "битого" вигляду */
-.box-card__image-placeholder {
-  width: 100%;
-  height: 220px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 14px;
-  border-radius: 16px;
-  background: radial-gradient(1200px 400px at 20% 0%, #ffffff 0%, #f4f4f5 55%, #efeff1 100%);
-}
-
-.box-card__ph-title {
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-.box-card__ph-sub {
-  margin-top: 6px;
-  font-size: 12px;
-  opacity: 0.7;
-}
-</style>
