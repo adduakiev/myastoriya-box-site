@@ -1,34 +1,36 @@
 <template>
   <section class="hero">
-    <p class="eyebrow">Pick a box in 20 seconds</p>
-    <h1>Choose the perfect Myastoriya Box with fast filters.</h1>
-    <p>From office breaks to picnic adventures — curated food boxes with clear sizes, price, and occasion tags.</p>
+    <p class="eyebrow">Обери бокс за 20 секунд</p>
+    <h1>Підбери ідеальний Myastoriya Box швидкими фільтрами.</h1>
+    <p>
+      Для офісу, дому чи пікніка — готові бокси з зрозумілим форматом, вагою, ціною та тегами по нагоді.
+    </p>
     <div class="hero-actions">
-      <NuxtLink class="primary" to="/catalog">Start in catalog</NuxtLink>
-      <NuxtLink class="ghost" to="/occasion/office">Browse occasions</NuxtLink>
+      <NuxtLink class="primary" to="/catalog">Перейти в каталог</NuxtLink>
+      <NuxtLink class="ghost" to="/occasion/office">Обрати привід</NuxtLink>
     </div>
   </section>
 
   <section>
-    <h2 class="section-title">Best for your moments</h2>
+    <h2 class="section-title">Найкраще для моментів</h2>
     <div class="use-cases">
       <div class="use-card">
-        <h3>Office & corporate</h3>
-        <p>Quick sharing formats for meetings, team lunches, and corporate gifting.</p>
+        <h3>Офіс & корпоратив</h3>
+        <p>Швидкі формати для зустрічей, командних обідів та корпоративних подарунків.</p>
       </div>
       <div class="use-card">
-        <h3>Home & family</h3>
-        <p>Cozy boxes for movie nights, birthdays, and warm gatherings.</p>
+        <h3>Дім & сімʼя</h3>
+        <p>Затишні бокси для кіно-вечора, дня народження і теплих зустрічей.</p>
       </div>
       <div class="use-card">
-        <h3>Outdoor & picnic</h3>
-        <p>Lightweight boxes that are easy to bring and even easier to enjoy.</p>
+        <h3>Пікнік & природа</h3>
+        <p>Зручно взяти з собою — легко розкласти й насолоджуватись.</p>
       </div>
     </div>
   </section>
 
   <section>
-    <h2 class="section-title">Bestsellers</h2>
+    <h2 class="section-title">Хіти</h2>
     <div class="grid">
       <BoxCard v-for="box in featured" :key="box.id" :box="box" />
     </div>
@@ -37,14 +39,14 @@
 
 <script setup lang="ts">
 const boxes = useBoxes()
-const featured = boxes.slice(0, 3)
+const featured = boxes.slice(0, 8)
 
 useHead({
-  title: 'Myastoriya Boxes — pick a box in 20 seconds',
+  title: 'Myastoriya Boxes — обери бокс за 20 секунд',
   meta: [
-    { name: 'description', content: 'Pick a Myastoriya Box in 20 seconds. Filter by occasion, price, and format.' },
-    { property: 'og:title', content: 'Pick a Myastoriya Box in 20 seconds' },
-    { property: 'og:description', content: 'Fast filters, curated boxes, and quick CTA to the main Myastoriya store.' },
+    { name: 'description', content: 'Підбір боксів Myastoriya за 20 секунд. Фільтри по нагоді, формату та ціні.' },
+    { property: 'og:title', content: 'Myastoriya Boxes — обери бокс за 20 секунд' },
+    { property: 'og:description', content: 'Швидкі фільтри, готові бокси і швидкий перехід до покупки.' },
   ],
 })
 </script>
