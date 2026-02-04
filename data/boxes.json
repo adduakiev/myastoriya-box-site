@@ -20,8 +20,7 @@
     "description_html": "<p>Курячий бокс з шашличками та соусами — зручно для швидкої вечері або компанії.</p>",
     "composition_text": "Шашлички курячі; копчений соус барбекю; соус спайсі; булочка бріош. Вага: 1500/30/30/30 г.",
     "images": [
-      "https://myastoriya.com.ua/upload/resize_cache/iblock/03e/1200_800_1/8iumwtmrh95hc5q1t46f9cc87uztfeoz.jpg",
-      "https://myastoriya.com.ua/upload/resize_cache/iblock/03e/400_300_1/8iumwtmrh95hc5q1t46f9cc87uztfeoz.jpg"
+      "/img/boxes/chicken-boks.webp"
     ],
     "canonical_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/chicken-boks2.html",
     "buy_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/chicken-boks2.html?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
@@ -48,8 +47,7 @@
     "description_html": "<p>Набір антипасті: морепродукти, м’ясні делікатеси, сири та доповнення — готове рішення для столу.</p>",
     "composition_text": "Багет; креветки; хамон; салямі; в’ялений окіст; куряче філе; оливки; каперси; сир камамбер; сир бри; мед; конфітюр. Вага: 1,8 кг. На 3–4 осіб.",
     "images": [
-      "https://myastoriya.com.ua/upload/resize_cache/iblock/73e/1200_800_1/c8be1cjsnfne5y5adb33q8r5bm0hp37e.jpg",
-      "https://myastoriya.com.ua/upload/resize_cache/iblock/73e/400_300_1/c8be1cjsnfne5y5adb33q8r5bm0hp37e.jpg"
+      "/img/boxes/boks-antipasti.webp"
     ],
     "canonical_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/boks-antipasti-new.html",
     "buy_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/boks-antipasti-new.html?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
@@ -75,7 +73,7 @@
     "description_html": "<p>TODO: додати опис зі сторінки товару.</p>",
     "composition_text": "TODO: додати склад зі сторінки товару.",
     "images": [
-      "https://myastoriya.com.ua/upload/resize_cache/iblock/840/1200_800_1/3aq5fut33xo4w7ddnxi0allqa68yror4.jpg"
+      "/img/boxes/shashlyk-boks.webp"
     ],
     "canonical_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/shashlyk-boks-.html",
     "buy_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/shashlyk-boks-.html?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
@@ -100,7 +98,9 @@
     ],
     "description_html": "<p>М’ясний гриль-набір для великої компанії.</p>",
     "composition_text": "TODO: додати склад зі сторінки товару. Набір розраховано на 6–8 осіб.",
-    "images": [],
+    "images": [
+      "/img/boxes/gril-boks-1.webp"
+    ],
     "canonical_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/gril-boks-.html",
     "buy_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/gril-boks-.html?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
   },
@@ -124,7 +124,7 @@
     "description_html": "<p>TODO: додати опис зі сторінки товару.</p>",
     "composition_text": "TODO: додати склад зі сторінки товару.",
     "images": [
-      "https://myastoriya.com.ua/upload/resize_cache/iblock/7l3/1200_800_1/lbr5nxhrb2mxosf2p40g5dy8b7ktd66q.jpg"
+      "/img/boxes/gril-boks-2.webp"
     ],
     "canonical_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/gril-boks-2.html",
     "buy_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/gril-boks-2.html?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
@@ -149,7 +149,7 @@
     "description_html": "<p>TODO: додати опис зі сторінки товару.</p>",
     "composition_text": "TODO: додати склад зі сторінки товару.",
     "images": [
-      "https://myastoriya.com.ua/upload/resize_cache/iblock/ee2/1200_800_1/1cdzgi4ervc2fd6iz88lpppckrb5vkv0.jpg"
+      "/img/boxes/gril-boks-3.webp"
     ],
     "canonical_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/gril-boks-3.html",
     "buy_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/gril-boks-3.html?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
@@ -173,7 +173,9 @@
     ],
     "description_html": "<p>TODO: додати опис зі сторінки товару.</p>",
     "composition_text": "TODO: додати склад зі сторінки товару.",
-    "images": [],
+    "images": [
+      "/img/boxes/boks-myasne-bbq.webp"
+    ],
     "canonical_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/boks-myasnoe-bbq.html",
     "buy_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/boks-myasnoe-bbq.html?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
   },
@@ -197,7 +199,7 @@
     "description_html": "<p>TODO: додати опис зі сторінки товару.</p>",
     "composition_text": "TODO: додати склад зі сторінки товару.",
     "images": [
-      "https://myastoriya.com.ua/upload/resize_cache/iblock/3c3/1200_800_1/cn0el9s5el0iy4qj7s8tez6arzj6b2wz.jpg"
+      "/img/boxes/boks-aziyskyy.webp"
     ],
     "canonical_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/boks-aziyskiy.html",
     "buy_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/boks-aziyskiy.html?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
@@ -223,13 +225,15 @@
     ],
     "description_html": "<p>TODO: додати опис зі сторінки товару.</p>",
     "composition_text": "TODO: додати склад зі сторінки товару.",
-    "images": [],
+    "images": [
+      "/img/boxes/boks-myasni-zakusky.webp"
+    ],
     "canonical_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/boks-myasnye-zakuski.html",
     "buy_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/boks-myasnye-zakuski.html?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
   },
   {
     "id": "box-010",
-    "slug": "boks-tomlene-myaso", 
+    "slug": "boks-tomlene-myaso",
     "title": "Бокс «Томлене м`ясо»",
     "price_uah": 2150,
     "weight_g": 0,
@@ -247,7 +251,9 @@
     ],
     "description_html": "<p>TODO: додати опис зі сторінки товару.</p>",
     "composition_text": "TODO: додати склад зі сторінки товару.",
-    "images": [],
+    "images": [
+      "/img/boxes/boks-tomlene-myaso.webp"
+    ],
     "canonical_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/boks-tomlenoe-myaso.html",
     "buy_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/boks-tomlenoe-myaso.html?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
   },
@@ -270,7 +276,9 @@
     ],
     "description_html": "<p>TODO: додати опис зі сторінки товару.</p>",
     "composition_text": "TODO: додати склад зі сторінки товару.",
-    "images": [],
+    "images": [
+      "/img/boxes/steyk-boks.webp"
+    ],
     "canonical_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/steyk-boks.html",
     "buy_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/steyk-boks.html?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
   },
@@ -294,7 +302,7 @@
     "description_html": "<p>TODO: додати опис зі сторінки товару.</p>",
     "composition_text": "TODO: додати склад зі сторінки товару.",
     "images": [
-      "https://myastoriya.com.ua/upload/resize_cache/iblock/0fe/1200_800_1/60q831eaog9cgdg9wwpylb7s2g7hwqac.jpg"
+      "/img/boxes/boks-ovochi-na-gryli.webp"
     ],
     "canonical_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/boks-ovoshchi-na-grile.html",
     "buy_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/boks-ovoshchi-na-grile.html?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
@@ -320,8 +328,7 @@
     "description_html": "<p>6 бургерів + картопля фрі + соуси — повноцінний обід для компанії.</p>",
     "composition_text": "Бургер Класичний — 3 шт; бургер з індичкою та копченим сиром — 3 шт; кетчуп — 6 порцій; картопля фрі — 400 г. Вага: 2280/480/240 г. Розраховано на 6 осіб.",
     "images": [
-      "https://myastoriya.com.ua/upload/resize_cache/iblock/03a/1200_800_1/xx0gbizjmyoxv5mvx5aj4be6u45tc0ki.jpg",
-      "https://myastoriya.com.ua/upload/resize_cache/iblock/03a/400_300_1/xx0gbizjmyoxv5mvx5aj4be6u45tc0ki.jpg"
+      "/img/boxes/burger-boks.webp"
     ],
     "canonical_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/burger-boks.html",
     "buy_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/burger-boks.html?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
@@ -346,7 +353,9 @@
     ],
     "description_html": "<p>Компактний набір із 3 бургерів + фрі + соус — зручно вдома або взяти із собою.</p>",
     "composition_text": "Бургер з біфштексом Абердин — 3 шт; фірмовий соус — 3 порції; картопля фрі — 300 г. Вага: 1000/300/90 г.",
-    "images": [],
+    "images": [
+      "/img/boxes/mini-burger-boks.webp"
+    ],
     "canonical_url": "https://myastoriya.com.ua/gotovaya-produktsiya/nabory-dlya-kompaniy/mini-burger-boks.html",
     "buy_url": "https://myastoriya.com.ua/gotovaya-produktsiya/nabory-dlya-kompaniy/mini-burger-boks.html?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
   },
@@ -370,7 +379,9 @@
     ],
     "description_html": "<p>Закуски для перегляду матчу/фільму або зустрічі з друзями.</p>",
     "composition_text": "Курячі крильця в чилійському маринаді; томлені ребра зі свинини в соусі Унагі; варено-копчені ковбаски з в`яленими томатами; камамбер фрі; (та інше — додай повний склад зі сторінки).",
-    "images": [],
+    "images": [
+      "/img/boxes/boks-do-pyva.webp"
+    ],
     "canonical_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/boks-k-pivu-.html",
     "buy_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/boks-k-pivu-.html?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
   },
@@ -394,7 +405,9 @@
     ],
     "description_html": "<p>TODO: додати опис зі сторінки товару (не вдалося витягнути повний опис).</p>",
     "composition_text": "TODO: додати склад зі сторінки товару.",
-    "images": [],
+    "images": [
+      "/img/boxes/gril-boks-mega-myasnyy.webp"
+    ],
     "canonical_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/gril-boks-mega-myasnyy.html",
     "buy_url": "https://myastoriya.com.ua/ua/gotovaya-produktsiya/nabory-dlya-kompaniy/gril-boks-mega-myasnyy.html?utm_source=boxsite&utm_medium=referral&utm_campaign=boxes"
   }
